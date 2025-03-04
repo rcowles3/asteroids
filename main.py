@@ -35,6 +35,9 @@ def main():
 
 		screen.fill('#000000')
 
+		# update player
+		player.update(dt)
+
 		# draw player
 		player.draw(screen)
 		
